@@ -24,10 +24,10 @@
  */
 
 #include "module_wrap.h"
-#include <gpac/network.h>
+#include "network.h"
 
 #if defined(WIN32) || defined(_WIN32_WCE)
-#include <windows.h>
+#include <windows.h"
 #else
 #include <sys/stat.h>
 #include <dlfcn.h>

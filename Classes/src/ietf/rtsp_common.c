@@ -23,11 +23,11 @@
  *
  */
 
-#include <gpac/internal/ietf_dev.h>
+#include "ietf_dev.h"
 
 #ifndef GPAC_DISABLE_STREAMING
 
-#include <gpac/token.h>
+#include "token.h"
 
 
 GF_Err gf_rtsp_read_reply(GF_RTSPSession *sess)

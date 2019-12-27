@@ -31,7 +31,7 @@ extern "C" {
 #endif
 
 /*!
- *	\file <gpac/rtp_streamer.h>
+ *	\file "rtp_streamer.h"
  *	\brief RTP streamer functions (packetizer and RTP socket).
  */
 
@@ -44,8 +44,8 @@ extern "C" {
  *	@{
  */
 
-#include <gpac/ietf.h>
-#include <gpac/isomedia.h>
+#include "ietf.h"
+#include "isomedia.h"
 
 #if !defined(GPAC_DISABLE_STREAMING) && !defined(GPAC_DISABLE_ISOM)
     

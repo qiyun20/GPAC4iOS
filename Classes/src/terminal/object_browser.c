@@ -23,17 +23,17 @@
  *
  */
 
-#include <gpac/scene_manager.h>
-#include <gpac/constants.h>
-#include <gpac/internal/terminal_dev.h>
-#include <gpac/term_info.h>
+#include "scene_manager.h"
+#include "constants.h"
+#include "terminal_dev.h"
+#include "term_info.h"
 #include "media_memory.h"
 
 
 /*WorldInfo node*/
-#include <gpac/nodes_mpeg4.h>
+#include "nodes_mpeg4.h"
 /*title node*/
-#include <gpac/nodes_svg.h>
+#include "nodes_svg.h"
 
 
 static Bool check_in_scene(GF_Scene *scene, GF_ObjectManager *odm)

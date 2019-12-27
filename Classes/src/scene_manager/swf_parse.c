@@ -24,9 +24,9 @@
  */
 
 
-#include <gpac/nodes_mpeg4.h>
-#include <gpac/internal/swf_dev.h>
-#include <gpac/avparse.h>
+#include "nodes_mpeg4.h"
+#include "swf_dev.h"
+#include "avparse.h"
 
 #ifndef GPAC_DISABLE_SWF_IMPORT
 

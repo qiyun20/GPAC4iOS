@@ -23,11 +23,11 @@
  *
  */
 
-#include <gpac/internal/isomedia_dev.h>
-#include <gpac/constants.h>
+#include "isomedia_dev.h"
+#include "constants.h"
 
 #ifndef GPAC_DISABLE_AV_PARSERS
-#include <gpac/internal/media_dev.h>
+#include "media_dev.h"
 #endif
 
 #ifndef GPAC_DISABLE_ISOM

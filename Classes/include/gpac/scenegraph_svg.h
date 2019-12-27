@@ -30,8 +30,8 @@
 extern "C" {
 #endif
 
-#include <gpac/scenegraph.h>
-#include <gpac/svg_types.h>
+#include "scenegraph.h"
+#include "svg_types.h"
 
 
 /*******************************************************************************
@@ -284,7 +284,7 @@ GF_Err gf_sg_listener_add(GF_Node *listener, GF_DOMEventTarget *evt_target);
 
 typedef struct
 {
-	/*event type, as defined in <gpac/events.h>*/
+	/*event type, as defined in "events.h"*/
 	u32 type;
 	/*event phase type, READ-ONLY
 	0: at target, 1: bubbling, 2: capturing , 3: canceled

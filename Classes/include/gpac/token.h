@@ -31,7 +31,7 @@ extern "C" {
 #endif
 
 /*!
- *	\file <gpac/token.h>
+ *	\file "token.h"
  *	\brief tokenizer functions.
  */
 
@@ -44,7 +44,7 @@ extern "C" {
  *	@{
  */
 
-#include <gpac/tools.h>
+#include "tools.h"
 
 /*!
  *\brief get string component 

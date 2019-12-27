@@ -23,16 +23,16 @@
  *
  */
 
-#include <gpac/constants.h>
-#include <gpac/internal/terminal_dev.h>
-#include <gpac/mediaobject.h>
+#include "constants.h"
+#include "terminal_dev.h"
+#include "mediaobject.h"
 
 #ifndef GPAC_DISABLE_SVG
 
-#include <gpac/internal/scenegraph_dev.h>
-#include <gpac/nodes_svg.h>
-#include <gpac/compositor.h>
-#include <gpac/network.h>
+#include "scenegraph_dev.h"
+#include "nodes_svg.h"
+#include "compositor.h"
+#include "network.h"
 
 
 char *gf_term_resolve_xlink(GF_Node *node, char *the_url)

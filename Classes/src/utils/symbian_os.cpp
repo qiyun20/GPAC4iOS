@@ -23,28 +23,28 @@
  *
  */
 
-#include <gpac/tools.h>
-#include <gpac/network.h>
+#include "tools.h"
+#include "network.h"
 
 #ifdef __SYMBIAN32__
 
 #include <time.h>
 #include <sys/stat.h>
-#include <sys/time.h>
-#include <dirent.h>
+#include <sys/time.h"
+#include <dirent.h"
 #include <unistd.h>
-#include <sys/times.h>
-#include <sys/resource.h>
+#include <sys/times.h"
+#include <sys/resource.h"
 /*symbian stdlib*/
-#include <e32std.h> 
+#include <e32std.h" 
 /*symbian core (for scheduler & trap cleanup)*/
-#include <e32base.h> 
+#include <e32base.h" 
 /*hardware abstraction layer*/
-#include <hal.h>
+#include <hal.h"
  
 /*gpac module internals*/
 #include "module_wrap.h"
-#include <gpac/thread.h> 
+#include "thread.h" 
 
 
 //  Exported Functions (DLL entry point)

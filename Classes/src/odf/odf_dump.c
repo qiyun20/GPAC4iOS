@@ -23,10 +23,10 @@
  *
  */
 
-#include <gpac/internal/odf_dev.h>
-#include <gpac/constants.h>
+#include "odf_dev.h"
+#include "constants.h"
 /*for import flags*/
-#include <gpac/media_tools.h>
+#include "media_tools.h"
 
 #ifndef GPAC_DISABLE_OD_DUMP
 

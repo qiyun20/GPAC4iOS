@@ -27,7 +27,7 @@
 #if defined(WIN32) || defined(_WIN32_WCE)
 
 #ifdef _WIN32_WCE
-#include <winsock.h>
+#include <winsock.h"
 
 #if !defined(__GNUC__)
 #pragma comment(lib, "winsock")
@@ -35,9 +35,9 @@
 
 #else
 
-#include <sys/timeb.h>
-#include <winsock2.h>
-#include <ws2tcpip.h>
+#include <sys/timeb.h"
+#include <winsock2.h"
+#include <ws2tcpip.h"
 
 #if !defined(__GNUC__)
 #pragma comment(lib, "ws2_32")
@@ -45,7 +45,7 @@
 
 #endif
 
-#include <windows.h>
+#include <windows.h"
 
 #if !defined(__GNUC__)
 
@@ -79,7 +79,7 @@
 static int wsa_init = 0;
 
 
-#include <gpac/network.h>
+#include "network.h"
 
 
 /*end-win32*/
@@ -104,7 +104,7 @@ static int wsa_init = 0;
 #include <sys/types.h>
 #include <arpa/inet.h>
 
-#include <gpac/network.h>
+#include "network.h"
 
 /*not defined on solaris*/
 #if !defined(INADDR_NONE)

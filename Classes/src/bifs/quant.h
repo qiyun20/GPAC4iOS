@@ -27,7 +27,7 @@
 #ifndef __QUANTIZE_H
 #define __QUANTIZE_H
 
-#include <gpac/internal/bifs_dev.h>
+#include "bifs_dev.h"
 
 #ifndef GPAC_DISABLE_BIFS
 

@@ -25,8 +25,8 @@
 
 
 
-#include <gpac/internal/bifs_dev.h>
-#include <gpac/internal/bifs_tables.h>
+#include "bifs_dev.h"
+#include "bifs_tables.h"
 #include "quant.h" 
 #include "script.h" 
 

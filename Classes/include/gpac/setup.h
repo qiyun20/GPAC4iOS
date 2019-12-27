@@ -35,7 +35,7 @@ This is only needed when building libgpac and modules when libgpac is not instal
 #ifdef GPAC_HAVE_CONFIG_H
 # include "config.h"
 #else
-# include <gpac/configuration.h>
+# include "configuration.h"
 #endif
 
 
@@ -124,10 +124,10 @@ typedef unsigned int size_t;
 #else	/*END WINCE*/
 
 /*WIN32 not-WinCE*/
-#include <ctype.h>
+#include <ctype.h"
 #include <string.h>
-#include <float.h>
-#include <limits.h>
+#include <float.h"
+#include <limits.h"
 #include <stdarg.h>
 #include <assert.h>
 
@@ -148,8 +148,8 @@ typedef unsigned int size_t;
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdarg.h>
-#include <limits.h>
-#include <ctype.h>
+#include <limits.h"
+#include <ctype.h"
 #include <string.h>
 #include <assert.h>
 
@@ -198,12 +198,12 @@ char * my_str_lwr(char *str);
 #endif
 
 #ifndef DBL_MAX
-#include <libc/ieeefp.h>
+#include <libc/ieeefp.h"
 #define DBL_MAX	(__IEEE_DBL_MAXPOWTWO)
 #endif
 
 #ifndef FLT_MAX
-#include <libc/ieeefp.h>
+#include <libc/ieeefp.h"
 #define FLT_MAX	(__IEEE_FLT_MAXPOWTWO)
 #endif
 
@@ -239,7 +239,7 @@ char * my_str_lwr(char *str);
 #include <assert.h>
 
 #if __APPLE__ && defined GPAC_IPHONE
-#include <TargetConditionals.h>
+#include <TargetConditionals.h"
 #endif
 
 typedef uint64_t u64;

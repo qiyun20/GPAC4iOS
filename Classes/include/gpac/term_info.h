@@ -34,11 +34,11 @@ extern "C" {
 #endif
 
 /*
-	OD Browsing API - YOU MUST INCLUDE <gpac/terminal.h> before 
+	OD Browsing API - YOU MUST INCLUDE "terminal.h" before 
 	(this has been separated from terminal.h to limit dependency of core to mpeg4_odf.h header)
 	ALL ITEMS ARE READ-ONLY AND SHALL NOT BE MODIFIED
 */
-#include <gpac/mpeg4_odf.h>
+#include "mpeg4_odf.h"
 
 /*returns top-level OD of the presentation*/
 GF_ObjectManager *gf_term_get_root_object(GF_Terminal *term);

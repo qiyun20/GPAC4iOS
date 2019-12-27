@@ -31,7 +31,7 @@ extern "C" {
 #endif
 
 /*!
- *	\file <gpac/utf.h>
+ *	\file "utf.h"
  *	\brief UTF functions.
  */
 
@@ -46,7 +46,7 @@ extern "C" {
  *	@{
  */
 
-#include <gpac/tools.h>
+#include "tools.h"
 
 /*!
  *\brief wide-char to multibyte conversion

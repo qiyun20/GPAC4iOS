@@ -24,9 +24,9 @@
  */
 
 #include "module_wrap.h"
-#include <gpac/config_file.h>
-#include <gpac/tools.h>
-#include <gpac/network.h>
+#include "config_file.h"
+#include "tools.h"
+#include "network.h"
 
 
 static void load_all_modules(GF_ModuleManager *mgr)

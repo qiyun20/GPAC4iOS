@@ -23,9 +23,9 @@
  *
  */
 
-#include <gpac/internal/isomedia_dev.h>
-#include <gpac/utf.h>
-#include <gpac/network.h>
+#include "isomedia_dev.h"
+#include "utf.h"
+#include "network.h"
 #include <time.h>
 
 #ifndef GPAC_DISABLE_ISOM_DUMP

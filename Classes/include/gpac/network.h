@@ -31,7 +31,7 @@ extern "C" {
 #endif
 
 /*!
- *	\file <gpac/network.h>
+ *	\file "network.h"
  *	\brief IP network functions.
  */
 
@@ -44,7 +44,7 @@ extern "C" {
  *	@{
  */
 
-#include <gpac/tools.h>
+#include "tools.h"
 
 
 /*!

@@ -31,7 +31,7 @@
 extern "C" {
 #endif
 
-#include <gpac/thread.h>
+#include "thread.h"
 
 enum
 {

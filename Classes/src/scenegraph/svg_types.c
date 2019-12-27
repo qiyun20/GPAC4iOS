@@ -23,10 +23,10 @@
  *
  */
 
-#include <gpac/internal/scenegraph_dev.h>
+#include "scenegraph_dev.h"
 
 #ifndef GPAC_DISABLE_SVG
-#include <gpac/nodes_svg.h>
+#include "nodes_svg.h"
 
 Bool gf_svg_is_animation_tag(u32 tag)
 {

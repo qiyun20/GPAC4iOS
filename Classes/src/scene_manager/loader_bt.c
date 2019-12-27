@@ -23,20 +23,20 @@
  *
  */
 
-#include <gpac/scene_manager.h>
-#include <gpac/utf.h>
-#include <gpac/constants.h>
-#include <gpac/internal/bifs_dev.h>
-#include <gpac/internal/scenegraph_dev.h>
+#include "scene_manager.h"
+#include "utf.h"
+#include "constants.h"
+#include "bifs_dev.h"
+#include "scenegraph_dev.h"
 
-#include <gpac/nodes_x3d.h>
+#include "nodes_x3d.h"
 /*for key codes...*/
-#include <gpac/user.h>
+#include "user.h"
 
 
 #if !defined(GPAC_DISABLE_LOADER_BT) && !defined(GPAC_DISABLE_ZLIB)
 
-#include <gpac/mpeg4_odf.h>
+#include "mpeg4_odf.h"
 
 /*since 0.2.2, we use zlib for bt reading to handle wrl.gz files*/
 #include <zlib.h>

@@ -25,12 +25,12 @@
 
 
 
-#include <gpac/constants.h>
-#include <gpac/utf.h>
-#include <gpac/xml.h>
-#include <gpac/token.h>
-#include <gpac/internal/media_dev.h>
-#include <gpac/internal/isomedia_dev.h>
+#include "constants.h"
+#include "utf.h"
+#include "xml.h"
+#include "token.h"
+#include "media_dev.h"
+#include "isomedia_dev.h"
 
 #ifndef GPAC_DISABLE_ISOM_WRITE
 
@@ -856,7 +856,7 @@ GF_Err gf_isom_new_simpletext_description(GF_ISOFile *movie, u32 trackNumber, GF
 #ifndef GPAC_DISABLE_SWF_IMPORT
 
 /* SWF Importer */
-#include <gpac/internal/swf_dev.h>
+#include "swf_dev.h"
 
 static GF_Err swf_svg_add_iso_sample(void *user, const char *data, u32 length, u64 timestamp, Bool isRap)
 {

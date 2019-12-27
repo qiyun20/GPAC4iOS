@@ -29,7 +29,7 @@
  *
  */
 
-#include <gpac/gpac_math.h>
+#include "gpac_math.h"
 
 u32 gf_get_bit_size(u32 MaxVal)
 {
@@ -196,7 +196,7 @@ this is not configured by default for lack of real perf increase.*/
 #   pragma comment(lib, "gpp_WMMX40_r")
 #endif
 
-#include <gpp.h>
+#include <gpp.h"
 
 GF_EXPORT
 Fixed gf_invfix(Fixed a)

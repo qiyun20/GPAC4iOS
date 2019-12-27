@@ -27,7 +27,7 @@
 #define _GF_CACHE_H_
 
 /*!
- *      \file <gpac/cache.h>
+ *      \file "cache.h"
  *      \brief Cache management functions.
  */
 
@@ -46,7 +46,7 @@
 extern "C" {
 #endif
 
-#include <gpac/tools.h>
+#include "tools.h"
 
     /**
      * Handle for Cache Entries.

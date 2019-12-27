@@ -22,15 +22,15 @@
  *  the Free Software Foundation, 675 Mass Ave, Cambridge, MA 02139, USA. 
  *
  */
-#include <gpac/scene_manager.h>
-#include <gpac/constants.h>
-#include <gpac/utf.h>
-#include <gpac/xml.h>
-#include <gpac/scenegraph_svg.h>
+#include "scene_manager.h"
+#include "constants.h"
+#include "utf.h"
+#include "xml.h"
+#include "scenegraph_svg.h"
 
 #ifndef GPAC_DISABLE_SVG
 
-#include <gpac/nodes_xbl.h>
+#include "nodes_xbl.h"
 
 typedef struct
 {

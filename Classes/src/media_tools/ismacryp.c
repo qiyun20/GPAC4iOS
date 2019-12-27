@@ -25,11 +25,11 @@
 
 
 
-#include <gpac/ismacryp.h>
-#include <gpac/xml.h>
-#include <gpac/base_coding.h>
-#include <gpac/constants.h>
-#include <gpac/crypt.h>
+#include "ismacryp.h"
+#include "xml.h"
+#include "base_coding.h"
+#include "constants.h"
+#include "crypt.h"
 #include <math.h>
 
 

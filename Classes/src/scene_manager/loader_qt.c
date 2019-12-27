@@ -23,13 +23,13 @@
  *
  */
 
-#include <gpac/scene_manager.h>
-#include <gpac/internal/media_dev.h>
-#include <gpac/constants.h>
+#include "scene_manager.h"
+#include "media_dev.h"
+#include "constants.h"
 
 #if !defined(GPAC_DISABLE_QTVR)
 
-#include <gpac/nodes_mpeg4.h>
+#include "nodes_mpeg4.h"
 
 
 

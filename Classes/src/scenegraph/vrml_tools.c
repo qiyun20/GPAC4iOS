@@ -23,15 +23,15 @@
  *
  */
 
-#include <gpac/internal/scenegraph_dev.h>
+#include "scenegraph_dev.h"
 
 /*MPEG4 & X3D tags (for node tables & script handling)*/
-#include <gpac/nodes_mpeg4.h>
-#include <gpac/nodes_x3d.h>
+#include "nodes_mpeg4.h"
+#include "nodes_x3d.h"
 
 
 #ifndef GPAC_DISABLE_VRML
-#include <gpac/internal/bifs_dev.h>
+#include "bifs_dev.h"
 
 
 GF_EXPORT

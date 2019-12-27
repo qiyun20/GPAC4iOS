@@ -25,11 +25,11 @@
 
 
 
-#include <gpac/constants.h>
-#include <gpac/utf.h>
-#include <gpac/xml.h>
-#include <gpac/internal/media_dev.h>
-#include <gpac/scene_manager.h>
+#include "constants.h"
+#include "utf.h"
+#include "xml.h"
+#include "media_dev.h"
+#include "scene_manager.h"
 
 enum
 {

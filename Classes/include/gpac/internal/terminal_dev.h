@@ -31,15 +31,15 @@ extern "C" {
 #endif
 
 
-#include <gpac/terminal.h>
-#include <gpac/mpeg4_odf.h>
+#include "terminal.h"
+#include "mpeg4_odf.h"
 
-#include <gpac/modules/service.h>
-#include <gpac/modules/codec.h>
-#include <gpac/modules/ipmp.h>
-#include <gpac/mediaobject.h>
-#include <gpac/thread.h>
-#include <gpac/modules/term_ext.h>
+#include "service.h"
+#include "codec.h"
+#include "ipmp.h"
+#include "mediaobject.h"
+#include "thread.h"
+#include "term_ext.h"
 
 typedef struct _scene GF_Scene;
 typedef struct _media_manager GF_MediaManager;

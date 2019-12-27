@@ -30,7 +30,7 @@ extern "C" {
 #endif
 
 /*!
- *	\file <map.h>
+ *	\file <map.h"
  *	\brief map functions.
  */
 
@@ -44,7 +44,7 @@ extern "C" {
  *	@{
  */
 
-#include <gpac/tools.h>
+#include "tools.h"
 
 
 /**

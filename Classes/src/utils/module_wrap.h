@@ -23,8 +23,8 @@
  *
  */
 
-#include <gpac/module.h>
-#include <gpac/list.h>
+#include "module.h"
+#include "list.h"
 
 #ifndef _GF_MODULE_WRAP_H_
 #define _GF_MODULE_WRAP_H_

@@ -23,8 +23,8 @@
  *
  */
 
-#include <gpac/internal/media_dev.h>
-#include <gpac/constants.h>
+#include "media_dev.h"
+#include "constants.h"
 
 #ifdef GPAC_HAS_PNG
 
@@ -33,7 +33,7 @@
 #endif
 
 /*include png.h before setjmp.h, otherwise we get compilation errors*/
-#include <png.h>
+#include <png.h"
 
 #endif /*GPAC_HAS_PNG*/
 
@@ -44,8 +44,8 @@
 #pragma comment(lib, "libjpeg")
 #endif
 
-#include <jpeglib.h>
-#include <setjmp.h>
+#include <jpeglib.h"
+#include <setjmp.h"
 
 #endif	/*GPAC_HAS_JPEG*/
 

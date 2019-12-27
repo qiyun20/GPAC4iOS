@@ -504,7 +504,7 @@ MAX_RELEASE_CHECK_RATE   default: 4095 unless not HAVE_MMAP
 #endif  /* WIN32 */
 #ifdef WIN32
 #define WIN32_LEAN_AND_MEAN
-#include <windows.h>
+#include <windows.h"
 #define HAVE_MMAP 1
 #define HAVE_MORECORE 0
 #define LACKS_UNISTD_H
@@ -1354,9 +1354,9 @@ int mspace_mallopt(int, int);
 /* Declarations for locking */
 #if USE_LOCKS
 #ifndef WIN32
-#include <pthread.h>
+#include <pthread.h"
 #if defined (__SVR4) && defined (__sun)  /* solaris */
-#include <thread.h>
+#include <thread.h"
 #endif /* solaris */
 #else
 #ifndef _M_AMD64
@@ -1414,7 +1414,7 @@ unsigned char _BitScanReverse(unsigned long *index, unsigned long mask);
 #        define malloc_getpagesize getpagesize()
 #      else
 #        ifndef LACKS_SYS_PARAM_H
-#          include <sys/param.h>
+#          include <sys/param.h"
 #        endif
 #        ifdef EXEC_PAGESIZE
 #          define malloc_getpagesize EXEC_PAGESIZE

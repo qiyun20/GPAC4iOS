@@ -22,7 +22,7 @@
  ********************************************************************/
 
 
-#include <gpac/internal/ogg.h>
+#include "ogg.h"
 
 #ifndef GPAC_DISABLE_OGG
 

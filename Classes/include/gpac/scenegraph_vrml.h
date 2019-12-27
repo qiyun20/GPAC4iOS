@@ -31,8 +31,8 @@
 extern "C" {
 #endif
 
-#include <gpac/scenegraph.h>
-#include <gpac/gpac_math.h>
+#include "scenegraph.h"
+#include "gpac_math.h"
 
 /*
 	All extensions for VRML/MPEG-4/X3D graph structure	

@@ -23,11 +23,11 @@
  *
  */
 
-#include <gpac/internal/terminal_dev.h>
-#include <gpac/internal/compositor_dev.h>
-#include <gpac/utf.h>
-#include <gpac/nodes_x3d.h>
-#include <gpac/constants.h>
+#include "terminal_dev.h"
+#include "compositor_dev.h"
+#include "utf.h"
+#include "nodes_x3d.h"
+#include "constants.h"
 
 #ifndef GPAC_DISABLE_VRML
 

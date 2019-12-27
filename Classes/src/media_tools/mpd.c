@@ -23,13 +23,13 @@
 *
 */
 
-#include <gpac/internal/mpd.h>
-#include <gpac/download.h>
-#include <gpac/internal/m3u8.h>
-#include <gpac/network.h>
+#include "mpd.h"
+#include "download.h"
+#include "m3u8.h"
+#include "network.h"
 
 #ifdef _WIN32_WCE
-#include <winbase.h>
+#include <winbase.h"
 #else
 /*for mktime*/
 #include <time.h>

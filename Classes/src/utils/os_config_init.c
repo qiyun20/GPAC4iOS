@@ -23,15 +23,15 @@
  *
  */
 
-#include <gpac/config_file.h>
+#include "config_file.h"
 
 
 #if defined(WIN32) || defined(_WIN32_WCE)
-#include <windows.h> /*for GetModuleFileName*/
+#include <windows.h" /*for GetModuleFileName*/
 
 #ifndef _WIN32_WCE
-#include <direct.h>  /*for _mkdir*/
-#include <shlobj.h>  /*for getting user-dir*/
+#include <direct.h"  /*for _mkdir*/
+#include <shlobj.h"  /*for getting user-dir*/
 
 #ifndef SHGFP_TYPE_CURRENT
 #define SHGFP_TYPE_CURRENT 0 /*needed for MinGW*/

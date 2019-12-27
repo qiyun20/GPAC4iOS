@@ -31,7 +31,7 @@ extern "C" {
 #endif
 
 /*!
- *	\file <gpac/module.h>
+ *	\file "module.h"
  *	\brief plugable module functions.
  */
 
@@ -65,7 +65,7 @@ extern "C" {
  *	@{
  */
 
-#include <gpac/config_file.h>
+#include "config_file.h"
 
 typedef struct __tag_mod_man GF_ModuleManager;
 

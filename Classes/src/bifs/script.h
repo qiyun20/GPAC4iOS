@@ -26,7 +26,7 @@
 #ifndef _SFSCRIPT_H
 #define _SFSCRIPT_H
 
-#include <gpac/internal/bifs_dev.h>
+#include "bifs_dev.h"
 
 #if !defined(GPAC_DISABLE_BIFS) && defined(GPAC_HAS_SPIDERMONKEY)
 

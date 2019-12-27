@@ -31,7 +31,7 @@ extern "C" {
 #endif
 
 /*!
- *	\file <gpac/filestreamer.h>
+ *	\file "filestreamer.h"
  *	\brief RTP file streamer functions.
  */
 
@@ -44,7 +44,7 @@ extern "C" {
  *	@{
  */
 
-#include <gpac/tools.h>
+#include "tools.h"
 
 
 typedef struct __isom_rtp_streamer GF_ISOMRTPStreamer;

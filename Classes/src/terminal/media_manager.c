@@ -25,9 +25,9 @@
 
 
 
-#include <gpac/internal/terminal_dev.h>
+#include "terminal_dev.h"
 #include "media_memory.h"
-#include <gpac/internal/compositor_dev.h>
+#include "compositor_dev.h"
 
 
 u32 MM_Loop(void *par);

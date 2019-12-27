@@ -32,7 +32,7 @@
 
 
 
-#include <gpac/internal/bifs_tables.h>
+#include "bifs_tables.h"
 
 
 #ifndef GPAC_DISABLE_BIFS

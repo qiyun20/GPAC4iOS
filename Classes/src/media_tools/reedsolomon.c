@@ -11,10 +11,10 @@
  ******************************/
  
  
-#include <stdio.h>  
-#include <ctype.h>  
-#include <gpac/tools.h>
-#include <gpac/internal/reedsolomon.h>
+#include <stdio.h>
+#include <ctype.h>
+#include "tools.h"
+#include "reedsolomon.h"
 
 #ifdef GPAC_ENABLE_MPE
 

@@ -24,8 +24,8 @@
  */
 
 
-#include <gpac/internal/terminal_dev.h>
-#include <gpac/constants.h>
+#include "terminal_dev.h"
+#include "constants.h"
 #include "media_memory.h"
 #include "media_control.h"
 

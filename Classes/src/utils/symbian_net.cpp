@@ -27,14 +27,14 @@
 #if defined(WIN32) || defined(_WIN32_WCE)
 
 #ifdef _WIN32_WCE
-#include <winsock.h>
+#include <winsock.h"
 #else
-#include <sys/timeb.h>
-#include <winsock2.h>
-#include <ws2tcpip.h>
+#include <sys/timeb.h"
+#include <winsock2.h"
+#include <ws2tcpip.h"
 #endif
 
-#include <windows.h>
+#include <windows.h"
 
 #if !defined(__GNUC__)
 
@@ -62,7 +62,7 @@
 /*the number of sockets used. This because the WinSock lib needs init*/
 static int wsa_init = 0;
 
-#include <gpac/network.h>
+#include "network.h"
 
 /*end-win32*/
 
@@ -85,7 +85,7 @@ static int wsa_init = 0;
 #include <sys/socket.h>
 #include <arpa/inet.h>
 
-#include <gpac/network.h>
+#include "network.h"
 
 #define INVALID_SOCKET -1
 #define SOCKET_ERROR -1

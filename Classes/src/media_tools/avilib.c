@@ -25,11 +25,11 @@
  *
  */
 
-#include <gpac/setup.h>
+#include "setup.h"
 
 #ifndef GPAC_DISABLE_AVILIB
 
-#include <gpac/internal/avilib.h>
+#include "avilib.h"
 
 
 #define PACKAGE "GPAC/avilib"

@@ -26,7 +26,7 @@
 #ifndef GPAC_JSAPI
 #define GPAC_JSAPI
 
-#include <gpac/setup.h>
+#include "setup.h"
 
 #ifdef GPAC_ANDROID
 #ifndef XP_UNIX
@@ -34,7 +34,7 @@
 #endif
 #endif
 
-#include <jsapi.h>
+#include <jsapi.h"
 
 #ifndef JS_VERSION
 #define JS_VERSION 170

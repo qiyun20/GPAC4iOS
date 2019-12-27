@@ -31,7 +31,7 @@ extern "C" {
 #endif
 
 /*!
- *	\file <gpac/bitstream.h>
+ *	\file "bitstream.h"
  *	\brief bitstream functions.
  */
 
@@ -45,7 +45,7 @@ extern "C" {
  *	@{
  */
 
-#include <gpac/tools.h>
+#include "tools.h"
 
 
 enum

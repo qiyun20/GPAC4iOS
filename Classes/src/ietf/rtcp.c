@@ -24,11 +24,11 @@
  */
 
 
-#include <gpac/internal/ietf_dev.h>
+#include "ietf_dev.h"
 
 #ifndef GPAC_DISABLE_STREAMING
 
-#include <gpac/bitstream.h>
+#include "bitstream.h"
 
 #ifndef _WIN32_WCE
 #include <time.h>

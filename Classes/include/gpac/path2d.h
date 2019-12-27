@@ -28,7 +28,7 @@
 #define _GF_PATH2D_H_
 
 /*!
- *	\file <gpac/path2d.h>
+ *	\file "path2d.h"
  *	\brief 2D Vectorial Path functions.
  */
 
@@ -38,8 +38,8 @@
 extern "C" {
 #endif
 
-#include <gpac/gpac_math.h>
-#include <gpac/tools.h>
+#include "gpac_math.h"
+#include "tools.h"
 
 
 /*!

@@ -23,7 +23,7 @@
  *
  */
 
-#include <gpac/token.h>
+#include "token.h"
 
 static GFINLINE s32 gf_tok_is_char_in_set(const char TestChar, const char *TestSet)
 {

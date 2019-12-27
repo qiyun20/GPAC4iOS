@@ -23,7 +23,7 @@
  *
  */
 
-#include <gpac/internal/odf_dev.h>
+#include "odf_dev.h"
 
 /************************************************************
 		Object GF_Descriptor Codec Functions

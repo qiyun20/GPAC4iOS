@@ -31,19 +31,19 @@ extern "C" {
 #endif
 
 /*!
- *	\file <gpac/math.h>
+ *	\file "math.h"
  *	\brief math and trigo functions.
  */
 
-#include <gpac/setup.h>
+#include "setup.h"
 	
-/*NOTE: there is a conflict on Win32 VC6 with C++ and gpac headers when including <math.h>*/
+/*NOTE: there is a conflict on Win32 VC6 with C++ and gpac headers when including <math.h"*/
 #if !defined(__cplusplus) || defined(__SYMBIAN32__)
 #include <math.h>
 #endif
 
 #ifdef __OBJC__
-#include <MacTypes.h>
+#include <MacTypes.h"
 #endif
 
 

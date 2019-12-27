@@ -24,9 +24,9 @@
  */
 
 
-#include <gpac/internal/scenegraph_dev.h>
-#include <gpac/nodes_mpeg4.h>
-#include <gpac/nodes_x3d.h>
+#include "scenegraph_dev.h"
+#include "nodes_mpeg4.h"
+#include "nodes_x3d.h"
 
 
 GF_EXPORT

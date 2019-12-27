@@ -26,9 +26,9 @@
 #ifndef _INPUT_SENSOR_H_
 #define _INPUT_SENSOR_H_
 
-#include <gpac/internal/terminal_dev.h>
+#include "terminal_dev.h"
 /*input sensor defs*/
-#include <gpac/nodes_mpeg4.h>
+#include "nodes_mpeg4.h"
 
 #ifndef GPAC_DISABLE_VRML
 

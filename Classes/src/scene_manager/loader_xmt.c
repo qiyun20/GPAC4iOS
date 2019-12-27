@@ -23,13 +23,13 @@
  *
  */
 
-#include <gpac/scene_manager.h>
-#include <gpac/constants.h>
-#include <gpac/utf.h>
-#include <gpac/xml.h>
-#include <gpac/internal/bifs_dev.h>
-#include <gpac/internal/scenegraph_dev.h>
-#include <gpac/nodes_x3d.h>
+#include "scene_manager.h"
+#include "constants.h"
+#include "utf.h"
+#include "xml.h"
+#include "bifs_dev.h"
+#include "scenegraph_dev.h"
+#include "nodes_x3d.h"
 
 #ifndef GPAC_DISABLE_LOADER_XMT
 

@@ -23,8 +23,8 @@
  *
  */
 
-#include <gpac/internal/isomedia_dev.h>
-#include <gpac/network.h>
+#include "isomedia_dev.h"
+#include "network.h"
 
 #ifndef GPAC_DISABLE_ISOM
 

@@ -23,15 +23,15 @@
  *
  */
 
-#include <gpac/tools.h>
-#include <gpac/network.h>
+#include "tools.h"
+#include "network.h"
 
 #if defined(_WIN32_WCE)
 
-#include <winbase.h>
-#include <winsock.h>
-#include <tlhelp32.h>
-//#include <direct.h>
+#include <winbase.h"
+#include <winsock.h"
+#include <tlhelp32.h"
+//#include <direct.h"
 
 #if !defined(__GNUC__)
 #pragma comment(lib, "toolhelp")
@@ -40,11 +40,11 @@
 #elif defined(WIN32)
 
 #include <time.h>
-#include <sys/timeb.h>
-#include <io.h>
-#include <windows.h>
-#include <tlhelp32.h>
-#include <direct.h>
+#include <sys/timeb.h"
+#include <io.h"
+#include <windows.h"
+#include <tlhelp32.h"
+#include <direct.h"
 
 #if !defined(__GNUC__)
 #pragma comment(lib, "winmm")
@@ -223,7 +223,7 @@ GF_Err gf_cleanup_dir(char* DirPathName)
 #ifdef _WIN32_WCE
 
 #include <time.h>
-//#include <wce_time.h>
+//#include <wce_time.h"
 
 /*
  * Author of first version (timeval.h): by Wu Yongwei
@@ -892,8 +892,8 @@ void gf_prompt_set_echo_off(Bool echo_off) { return; }
 
 #else
 
-#include <conio.h>
-#include <windows.h>
+#include <conio.h"
+#include <windows.h"
 
 Bool gf_prompt_has_input()
 {
@@ -1547,24 +1547,24 @@ Bool gf_sys_get_rti_os(u32 refresh_time_ms, GF_SystemRTInfo *rti, u32 flags)
 #elif defined(__OBJC__) && !defined(GPAC_IPHONE)
 
 #include <sys/types.h>
-#include <sys/sysctl.h>
-#include <sys/vmmeter.h>
-#include <mach/mach_init.h>
-#include <mach/mach_host.h>
-#include <mach/mach_port.h>
-#include <mach/mach_traps.h>
-#include <mach/task_info.h>
-#include <mach/thread_info.h>
-#include <mach/thread_act.h>
-#include <mach/vm_region.h>
-#include <mach/vm_map.h>
-#include <mach/task.h>
+#include <sys/sysctl.h"
+#include <sys/vmmeter.h"
+#include <mach/mach_init.h"
+#include <mach/mach_host.h"
+#include <mach/mach_port.h"
+#include <mach/mach_traps.h"
+#include <mach/task_info.h"
+#include <mach/thread_info.h"
+#include <mach/thread_act.h"
+#include <mach/vm_region.h"
+#include <mach/vm_map.h"
+#include <mach/task.h"
 #if __ENVIRONMENT_MAC_OS_X_VERSION_MIN_REQUIRED__ >= 1060
-#include <mach/shared_region.h>
+#include <mach/shared_region.h"
 #else
-#include <mach/shared_memory_server.h>
+#include <mach/shared_memory_server.h"
 #endif
-#include <mach/mach_error.h>
+#include <mach/mach_error.h"
 
 static u64 total_physical_memory = 0;
 

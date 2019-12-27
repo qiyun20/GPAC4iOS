@@ -40,7 +40,7 @@ extern "C" {
 #endif
 
 /*include event system*/
-#include <gpac/module.h>
+#include "module.h"
 
 
 /*
@@ -149,9 +149,9 @@ struct _tag_audio_filter
 		@samplerate: samplerate of data - this cannot be modified by a filter
 		@bits_per_sample: sample format (8 or 16 bit signed PCM data) of data - this cannot be modified by a filter
 		@input_channel_number: number of input channels 
-		@input_channel_layout: channel layout of input data - cf <gpac/constants.h>
+		@input_channel_layout: channel layout of input data - cf "constants.h"
 		@output_channel_number: number of ouput channels 
-		@output_channel_layout: channel layout of output data - cf <gpac/constants.h>
+		@output_channel_layout: channel layout of output data - cf "constants.h"
 		&output_block_size_in_samples: size in blocks of the data to be sent to this filter. 
 				If 0, data will not be reframed and blocks of any number of samples will be processed
 		@delay_ms: delay in ms introduced by this filter

@@ -24,11 +24,11 @@
  */
 
 
-#include <gpac/internal/ietf_dev.h>
+#include "ietf_dev.h"
 
 #ifndef GPAC_DISABLE_STREAMING
 
-#include <gpac/token.h>
+#include "token.h"
 
 GF_EXPORT
 GF_RTSPCommand *gf_rtsp_command_new()

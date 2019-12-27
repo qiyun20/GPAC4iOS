@@ -31,8 +31,8 @@
 extern "C" {
 #endif
 
-#include <gpac/constants.h>
-#include <gpac/gpac_math.h>
+#include "constants.h"
+#include "gpac_math.h"
 
 
 /*!

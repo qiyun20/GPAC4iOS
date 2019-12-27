@@ -22,19 +22,19 @@
  *
  */
 
-#include <gpac/mpegts.h>
+#include "mpegts.h"
 
 
 #ifndef GPAC_DISABLE_MPEG2TS
 
 #include <string.h>
-#include <gpac/constants.h>
-#include <gpac/internal/media_dev.h>
-#include <gpac/download.h>
+#include "constants.h"
+#include "media_dev.h"
+#include "download.h"
 
 
 #ifndef GPAC_DISABLE_STREAMING
-#include <gpac/internal/ietf_dev.h>
+#include "ietf_dev.h"
 #endif
 
 
@@ -45,11 +45,11 @@
 //#define FORCE_DISABLE_MPEG4SL_OVER_MPEG2TS
 
 #ifdef GPAC_ENABLE_MPE
-#include <gpac/dvb_mpe.h>
+#include "dvb_mpe.h"
 #endif
 
 #ifdef GPAC_ENABLE_DSMCC
-#include <gpac/ait.h>
+#include "ait.h"
 #endif
 
 #define DEBUG_TS_PACKET 0

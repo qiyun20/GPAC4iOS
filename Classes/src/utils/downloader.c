@@ -24,20 +24,20 @@
  */
 
 
-#include <gpac/download.h>
-#include <gpac/network.h>
-#include <gpac/token.h>
-#include <gpac/thread.h>
-#include <gpac/list.h>
-#include <gpac/base_coding.h>
-#include <gpac/tools.h>
-#include <gpac/cache.h>
+#include "download.h"
+#include "network.h"
+#include "token.h"
+#include "thread.h"
+#include "list.h"
+#include "base_coding.h"
+#include "tools.h"
+#include "cache.h"
 
 #ifdef GPAC_HAS_SSL
-#include <openssl/ssl.h>
-#include <openssl/x509.h>
-#include <openssl/err.h>
-#include <openssl/rand.h>
+#include <openssl/ssl.h"
+#include <openssl/x509.h"
+#include <openssl/err.h"
+#include <openssl/rand.h"
 
 #if (defined(WIN32) || defined(_WIN32_WCE)) && !defined(__GNUC__)
 #pragma comment(lib, "ssleay32")

@@ -24,13 +24,13 @@
  */
 
 
-#include <gpac/rtp_streamer.h>
-#include <gpac/constants.h>
-#include <gpac/base_coding.h>
+#include "rtp_streamer.h"
+#include "constants.h"
+#include "base_coding.h"
 #ifndef GPAC_DISABLE_AV_PARSERS
-#include <gpac/avparse.h>
+#include "avparse.h"
 #endif
-#include <gpac/internal/ietf_dev.h>
+#include "ietf_dev.h"
 
 #if !defined(GPAC_DISABLE_STREAMING) && !defined(GPAC_DISABLE_ISOM)
 

@@ -23,17 +23,17 @@
  *
  */
 
-#include <gpac/scene_manager.h>
-#include <gpac/constants.h>
-#include <gpac/utf.h>
-#include <gpac/xml.h>
-#include <gpac/events.h>
-#include <gpac/internal/scenegraph_dev.h>
-#include <gpac/internal/laser_dev.h>
-#include <gpac/nodes_svg.h>
-#include <gpac/base_coding.h>
+#include "scene_manager.h"
+#include "constants.h"
+#include "utf.h"
+#include "xml.h"
+#include "events.h"
+#include "scenegraph_dev.h"
+#include "laser_dev.h"
+#include "nodes_svg.h"
+#include "base_coding.h"
 
-#include <gpac/internal/terminal_dev.h>
+#include "terminal_dev.h"
 
 
 #ifndef GPAC_DISABLE_SVG

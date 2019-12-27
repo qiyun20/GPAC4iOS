@@ -23,8 +23,8 @@
  *
  */
 
-#include <gpac/internal/isomedia_dev.h>
-#include <gpac/network.h>
+#include "isomedia_dev.h"
+#include "network.h"
 
 #ifndef GPAC_DISABLE_ISOM
 
@@ -539,8 +539,8 @@ GF_Err FDM_AddData(GF_FileDataMap *ptr, char *data, u32 dataSize)
 
 #ifdef WIN32
 
-#include <windows.h>
-#include <winerror.h>
+#include <windows.h"
+#include <winerror.h"
 
 GF_DataMap *gf_isom_fmo_new(const char *sPath, u8 mode)
 {

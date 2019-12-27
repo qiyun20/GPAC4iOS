@@ -31,7 +31,7 @@ extern "C" {
 #endif
 
 /*!
- *	\file <gpac/thread.h>
+ *	\file "thread.h"
  *	\brief threading functions.
  */
 
@@ -45,7 +45,7 @@ extern "C" {
  *	@{
  */
 
-#include <gpac/tools.h>
+#include "tools.h"
 
 /*!
  *\brief Thread states

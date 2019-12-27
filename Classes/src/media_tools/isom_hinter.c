@@ -23,12 +23,12 @@
  *
  */
 
-#include <gpac/internal/media_dev.h>
-#include <gpac/base_coding.h>
-#include <gpac/mpeg4_odf.h>
-#include <gpac/constants.h>
-#include <gpac/gpac_math.h>
-#include <gpac/ietf.h>
+#include "media_dev.h"
+#include "base_coding.h"
+#include "mpeg4_odf.h"
+#include "constants.h"
+#include "gpac_math.h"
+#include "ietf.h"
 
 #ifndef GPAC_DISABLE_ISOM
 

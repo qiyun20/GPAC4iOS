@@ -24,14 +24,14 @@
  */
 
 
-#include <gpac/internal/terminal_dev.h>
-#include <gpac/internal/compositor_dev.h>
-#include <gpac/internal/scenegraph_dev.h>
-#include <gpac/modules/codec.h>
-#include <gpac/nodes_x3d.h>
+#include "terminal_dev.h"
+#include "compositor_dev.h"
+#include "scenegraph_dev.h"
+#include "codec.h"
+#include "nodes_x3d.h"
 #include "media_memory.h"
 #include "media_control.h"
-#include <gpac/nodes_svg.h>
+#include "nodes_svg.h"
 
 
 #ifndef GPAC_DISABLE_SVG

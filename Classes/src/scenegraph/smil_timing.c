@@ -22,9 +22,9 @@
  *
  */
 
-#include <gpac/internal/scenegraph_dev.h>
-#include <gpac/events.h>
-#include <gpac/nodes_svg.h>
+#include "scenegraph_dev.h"
+#include "events.h"
+#include "nodes_svg.h"
 
 #ifndef GPAC_DISABLE_SVG
 

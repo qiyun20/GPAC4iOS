@@ -23,7 +23,7 @@
  *
  */
 
-#include <gpac/network.h>
+#include "network.h"
 
 /* the length of the URL separator ("://" || "|//") */
 #define URL_SEP_LENGTH	3

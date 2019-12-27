@@ -23,13 +23,13 @@
  *
  */
 
-#include <gpac/base_coding.h>
-#include <gpac/events.h>
-#include <gpac/nodes_svg.h>
+#include "base_coding.h"
+#include "events.h"
+#include "nodes_svg.h"
 
 #ifndef GPAC_DISABLE_SVG
 
-#include <gpac/internal/scenegraph_dev.h>
+#include "scenegraph_dev.h"
 
 #define DUMP_COORDINATES 1
 

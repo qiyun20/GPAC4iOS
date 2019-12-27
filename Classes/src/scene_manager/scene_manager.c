@@ -23,13 +23,13 @@
  *
  */
 
-#include <gpac/scene_manager.h>
-#include <gpac/constants.h>
-#include <gpac/media_tools.h>
-#include <gpac/bifs.h>
-#include <gpac/xml.h>
-#include <gpac/internal/scenegraph_dev.h>
-#include <gpac/network.h>
+#include "scene_manager.h"
+#include "constants.h"
+#include "media_tools.h"
+#include "bifs.h"
+#include "xml.h"
+#include "scenegraph_dev.h"
+#include "network.h"
 
 
 GF_EXPORT
@@ -735,7 +735,7 @@ GF_Err gf_sm_load_suspend(GF_SceneLoader *load, Bool suspend)
 }
 
 #if !defined(GPAC_DISABLE_LOADER_BT) || !defined(GPAC_DISABLE_LOADER_XMT)
-#include <gpac/base_coding.h>
+#include "base_coding.h"
 void gf_sm_update_bitwrapper_buffer(GF_Node *node, const char *fileName)
 {
 	u32 data_size = 0;

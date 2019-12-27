@@ -23,7 +23,7 @@
  *
  */
 
-#include <gpac/tools.h>
+#include "tools.h"
 
 
 static char szTYPE[5];
@@ -131,7 +131,7 @@ void gf_set_progress_callback(void *_user_cbk, gf_on_progress_cbk _prog_cbk)
 	user_cbk = _user_cbk;
 }
 
-/*ENTRIES MUST BE IN THE SAME ORDER AS LOG_TOOL DECLARATION IN <gpac/tools.h>*/
+/*ENTRIES MUST BE IN THE SAME ORDER AS LOG_TOOL DECLARATION IN "tools.h"*/
 static struct log_tool_info {u32 type;  const char *name; u32 level; } global_log_tools [] =
 {
 	{ GF_LOG_CORE, "core", GF_LOG_WARNING },

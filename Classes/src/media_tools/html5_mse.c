@@ -22,11 +22,11 @@
 *  the Free Software Foundation, 675 Mass Ave, Cambridge, MA 02139, USA.
 *
 */
-#include <gpac/setup.h>
+#include "setup.h"
 
 #ifdef GPAC_HAS_SPIDERMONKEY
-#include <gpac/html5_mse.h>
-#include <gpac/internal/isomedia_dev.h>
+#include "html5_mse.h"
+#include "isomedia_dev.h"
 
 GF_HTML_MediaSource *gf_mse_media_source_new()
 {

@@ -24,28 +24,28 @@
  */
 
 
-#include <gpac/tools.h>
-#include <gpac/media_tools.h>
-#include <gpac/constants.h>
+#include "tools.h"
+#include "media_tools.h"
+#include "constants.h"
 
 #if !defined(GPAC_DISABLE_VRML) && !defined(GPAC_DISABLE_X3D) && !defined(GPAC_DISABLE_SVG)
-#include <gpac/scenegraph.h>
+#include "scenegraph.h"
 #endif
 #ifndef GPAC_DISABLE_SMGR
-#include <gpac/scene_manager.h>
+#include "scene_manager.h"
 #endif
 
 #ifndef GPAC_DISABLE_BIFS
-#include <gpac/bifs.h>
+#include "bifs.h"
 #endif
 #ifndef GPAC_DISABLE_VRML
-#include <gpac/nodes_mpeg4.h>
+#include "nodes_mpeg4.h"
 #endif
-#include <gpac/network.h>
+#include "network.h"
 
 #ifndef GPAC_DISABLE_ISOM_WRITE
 
-#include <gpac/xml.h>
+#include "xml.h"
 
 typedef struct 
 {

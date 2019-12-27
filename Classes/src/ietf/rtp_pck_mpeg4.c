@@ -23,11 +23,11 @@
  *
  */
 
-#include <gpac/internal/ietf_dev.h>
+#include "ietf_dev.h"
 
 #ifndef GPAC_DISABLE_STREAMING
 
-#include <gpac/constants.h>
+#include "constants.h"
 
 //get the size of the RSLH section given the GF_SLHeader and the SLMap
 static u32 gf_rtp_build_au_hdr_size(GP_RTPPacketizer *builder, GF_SLHeader *slh)

@@ -24,22 +24,22 @@
  */
 
 
-#include <gpac/internal/media_dev.h>
-#include <gpac/mpegts.h>
-#include <gpac/constants.h>
+#include "media_dev.h"
+#include "mpegts.h"
+#include "constants.h"
 
 #ifndef GPAC_DISABLE_MEDIA_EXPORT
 
 #ifndef GPAC_DISABLE_AVILIB
-#include <gpac/internal/avilib.h>
+#include "avilib.h"
 #endif
 
 #ifndef GPAC_DISABLE_OGG
-#include <gpac/internal/ogg.h>
+#include "ogg.h"
 #endif
 
 #ifndef GPAC_DISABLE_VOBSUB
-#include <gpac/internal/vobsub.h>
+#include "vobsub.h"
 #endif
 
 #ifndef GPAC_DISABLE_ZLIB
@@ -2121,9 +2121,9 @@ GF_Err gf_media_export_nhml(GF_MediaExporter *dumper, Bool dims_doc)
 }
 
 /* Required for base64 encoding of DecoderSpecificInfo */
-#include <gpac/base_coding.h>
+#include "base_coding.h"
 /* Required for timestamp generation */
-#include <gpac/webvtt.h>
+#include "webvtt.h"
 
 GF_Err gf_media_export_webvtt_metadata(GF_MediaExporter *dumper)
 {

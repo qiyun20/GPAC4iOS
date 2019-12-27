@@ -25,7 +25,7 @@
 
 
 #include "media_control.h"
-#include <gpac/constants.h>
+#include "constants.h"
 
 #ifndef GPAC_DISABLE_VRML
 

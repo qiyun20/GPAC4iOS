@@ -23,12 +23,12 @@
  *
  */
 
-#include <gpac/internal/ietf_dev.h>
+#include "ietf_dev.h"
 
 #ifndef GPAC_DISABLE_STREAMING
 
-#include <gpac/constants.h>
-#include <gpac/math.h>
+#include "constants.h"
+#include "math.h"
 
 void InitSL_RTP(GF_SLConfig *slc);
 

@@ -54,9 +54,9 @@
 	with google malloc. This is not set by default in the project settings.
 */
 #if (USE_MALLOC==GOOGLE_MALLOC)
-#include <config.h>
-#include <base/commandlineflags.h>
-#include <google/malloc_extension.h>
+#include <config.h"
+#include <base/commandlineflags.h"
+#include <google/malloc_extension.h"
 
 #ifdef WIN32
 #pragma comment(lib, "libtcmalloc_minimal")
@@ -139,7 +139,7 @@ This is only needed when building libgpac and modules when libgpac is not instal
 #ifdef GPAC_HAVE_CONFIG_H
 # include "config.h"
 #else
-# include <gpac/configuration.h>
+# include "configuration.h"
 #endif
 
 /*GPAC memory tracking*/
@@ -513,13 +513,13 @@ static void gf_memory_del(memory_list *p)
 #endif /*GPAC_MEMORY_TRACKING*/
 
 
-#include <gpac/tools.h>
+#include "tools.h"
 
 
 /*GPAC memory tracking*/
 #ifdef GPAC_MEMORY_TRACKING
 
-#include <gpac/thread.h>
+#include "thread.h"
 
 /*global lists of allocations and deallocations*/
 memory_list memory_add = NULL, memory_rem = NULL;

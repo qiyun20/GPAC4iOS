@@ -23,10 +23,10 @@
  *
  */
 
-#include <gpac/internal/terminal_dev.h>
-#include <gpac/internal/compositor_dev.h>
-#include <gpac/network.h>
-#include <gpac/cache.h>
+#include "terminal_dev.h"
+#include "compositor_dev.h"
+#include "network.h"
+#include "cache.h"
 #include "media_memory.h"
 #include "media_control.h"
 

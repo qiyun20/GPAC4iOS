@@ -25,10 +25,10 @@
 
 #define _GNU_SOURCE
 
-#include <gpac/internal/m3u8.h>
+#include "m3u8.h"
 #include <string.h>
 #include <stdio.h>
-#include <gpac/network.h>
+#include "network.h"
 
 /*#define MYLOG(xx) GF_LOG(GF_LOG_INFO, GF_LOG_DASH, xx )*/
 #define MYLOG(xx)

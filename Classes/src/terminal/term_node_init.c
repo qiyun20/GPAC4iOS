@@ -24,14 +24,14 @@
  */
 
 
-#include <gpac/internal/terminal_dev.h>
-#include <gpac/internal/compositor_dev.h>
+#include "terminal_dev.h"
+#include "compositor_dev.h"
 /*includes MPEG4 nodes + input sensor stack*/
 #include "input_sensor.h"
 /*includes X3D nodes for WorldInfo, Inline and Key/String sensors*/
-#include <gpac/nodes_x3d.h>
-#include <gpac/nodes_svg.h>
-#include <gpac/options.h>
+#include "nodes_x3d.h"
+#include "nodes_svg.h"
+#include "options.h"
 #ifndef GPAC_DISABLE_VRML
 
 void InitMediaControl(GF_Scene *scene, GF_Node *node);

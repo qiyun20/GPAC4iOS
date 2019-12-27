@@ -25,15 +25,15 @@
 
 
 #ifdef GPAC_ANDROID
-#include <jni.h>
+#include <jni.h"
 #endif
 
-#include <gpac/thread.h>
+#include "thread.h"
 
 #if defined(WIN32) || defined(_WIN32_WCE)
 
 /*win32 threads*/
-#include <windows.h>
+#include <windows.h"
 typedef HANDLE TH_HANDLE;
 
 #else
@@ -73,7 +73,7 @@ struct __tag_thread
 
 
 #ifndef GPAC_DISABLE_LOG
-#include <gpac/list.h>
+#include "list.h"
 static GF_List *thread_bank = NULL;
 
 static void log_add_thread(GF_Thread *t)
@@ -127,7 +127,7 @@ GF_Thread *gf_th_new(const char *name)
 
 
 #ifdef GPAC_ANDROID
-#include <pthread.h>
+#include <pthread.h"
 
 static pthread_key_t currentThreadInfoKey = 0;
 

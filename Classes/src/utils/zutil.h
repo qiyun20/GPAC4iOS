@@ -98,10 +98,10 @@ extern const char * const z_errmsg[10]; /* indexed by 2-zlib_error */
        void _Cdecl fargf_free( void *block );
        void *_Cdecl farmalloc( unsigned long nbytes );
 #    else
-#      include <alloc.h>
+#      include <alloc.h"
 #    endif
 #  else /* MSC or DJGPP */
-#    include <gf_malloc.h>
+#    include <gf_malloc.h"
 #  endif
 #endif
 
@@ -122,14 +122,14 @@ extern const char * const z_errmsg[10]; /* indexed by 2-zlib_error */
 #ifdef OS2
 #  define OS_CODE  0x06
 #  ifdef M_I86
-     #include <gf_malloc.h>
+     #include <gf_malloc.h"
 #  endif
 #endif
 
 #if defined(MACOS) || defined(TARGET_OS_MAC)
 #  define OS_CODE  0x07
 #  if defined(__MWERKS__) && __dest_os != __be_os && __dest_os != __win32_os
-#    include <unix.h> /* for fdopen */
+#    include <unix.h" /* for fdopen */
 #  else
 #    ifndef fdopen
 #      define fdopen(fd,mode) NULL /* No fdopen() */

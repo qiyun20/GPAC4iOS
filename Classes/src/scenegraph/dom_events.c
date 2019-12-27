@@ -22,14 +22,14 @@
  *  the Free Software Foundation, 675 Mass Ave, Cambridge, MA 02139, USA.
  *
  */
-#include <gpac/internal/scenegraph_dev.h>
-#include <gpac/xml.h>
+#include "scenegraph_dev.h"
+#include "xml.h"
 
 #ifndef GPAC_DISABLE_SVG
 
-#include <gpac/scenegraph_svg.h>
-#include <gpac/events.h>
-#include <gpac/nodes_svg.h>
+#include "scenegraph_svg.h"
+#include "events.h"
+#include "nodes_svg.h"
 
 static void gf_smil_handle_event(GF_Node *anim, GF_FieldInfo *info, GF_DOM_Event *evt, Bool is_end);
 

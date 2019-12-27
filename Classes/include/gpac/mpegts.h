@@ -26,10 +26,10 @@
 #ifndef _GF_MPEG_TS_H_
 #define _GF_MPEG_TS_H_
 
-#include <gpac/list.h>
-#include <gpac/network.h>
-#include <gpac/thread.h>
-#include <gpac/internal/odf_dev.h>
+#include "list.h"
+#include "network.h"
+#include "thread.h"
+#include "odf_dev.h"
 
 
 
@@ -911,7 +911,7 @@ GF_Err gf_m2ts_demux_file(GF_M2TS_Demuxer *ts, const char *fileName, u64 start_b
 
 #ifndef GPAC_DISABLE_MPEG2TS_MUX
 
-#include <gpac/esi.h>
+#include "esi.h"
 
 /*
 	MPEG-2 TS Multiplexer
@@ -1183,10 +1183,10 @@ GF_Err gf_m2ts_program_stream_update_ts_scale(GF_ESInterface *_self, u32 time_sc
 
 #ifdef GPAC_HAS_LINUX_DVB
 #include <fcntl.h>
-#include <sys/ioctl.h>
+#include <sys/ioctl.h"
 #include <sys/stat.h>
-#include <linux/dvb/dmx.h>
-#include <linux/dvb/frontend.h>
+#include <linux/dvb/dmx.h"
+#include <linux/dvb/frontend.h"
 
 struct __gf_dvb_tuner {
 	u32 freq;

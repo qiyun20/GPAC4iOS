@@ -25,8 +25,8 @@
 
 
 
-#include <gpac/internal/terminal_dev.h>
-#include <gpac/constants.h>
+#include "terminal_dev.h"
+#include "constants.h"
 #include "media_memory.h"
 #include "media_control.h"
 
@@ -64,7 +64,7 @@ static GF_CMUnit *gf_cm_unit_new()
 }
 
 #ifdef _WIN32_WCE
-#include <winbase.h>
+#include <winbase.h"
 static GFINLINE void *my_large_alloc(u32 size) {
 	void *ptr;
 	if (!size) return NULL;
